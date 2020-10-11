@@ -1,7 +1,10 @@
 <?php
 
+use App\Http\Controllers\API\PlanController;
+use App\Models\Plan;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Validator;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +17,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+
+Route::get('/test', function () {
+    // Plan::create(['id' => 1000, 'name' => 'my first plan']);
+
+    // $plan = Plan::find(1);
+    // $plan->update(['name' => 'hahaha']);
 });
+
+Route::group(['prefix' => 'plan'], function () {
+    Route::get('/', [PlanController::class, 'getPlans']);
+    Route::get('/hint/{age}/{sex}/{bmi}', [PlanController::class, 'getPlansByHint']);
+    Route::post('/', [PlanController::class, 'addPlan']);
+    Route::put('/{plan:id}', [PlanController::class, 'updatePlan']);
+});
+
+
+
