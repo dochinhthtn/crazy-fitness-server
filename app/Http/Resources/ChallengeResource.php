@@ -16,7 +16,7 @@ class ChallengeResource extends JsonResource
     {
         return [
             'name' => $this->name,
-            'exercises' => ExerciseResource::collection($this->whenLoaded('exercises'))
+            'workouts' => WorkoutResource::collection($this->whenLoaded('workouts'))
         ];
     }
 }

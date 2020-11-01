@@ -18,7 +18,10 @@ class WorkoutResource extends JsonResource
             'id' => $this->id,
             'name' => $this->name,
             'description' => $this->description,
-            'exercises' => ExerciseResource::collection($this->exercises->withPivot(['order', 'counter']))
+            'exercises' => ExerciseResource::collection($this->exercises),
+            'order' => $this->whenPivotLoaded('challenges_workouts', function() {
+                return $this->pivot->order;
+            })
         ];
     }
 }

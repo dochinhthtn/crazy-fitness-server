@@ -19,7 +19,14 @@ class ExerciseResource extends JsonResource
             'name' => $this->name,
             'countType' => $this->count_type,
             'duration' => $this->duration,
-            'calories' => $this->calories
+            'calories' => $this->calories,
+            'difficulty' => $this->difficulty,
+            'order' => $this->whenPivotLoaded('workouts_exercises', function() {
+                return $this->pivot->order;
+            }),
+            'counter' => $this->whenPivotLoaded('workouts_exercises', function() {
+                return $this->pivot->counter;
+            })
         ];
     }
 }
