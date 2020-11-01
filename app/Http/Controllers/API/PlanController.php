@@ -13,18 +13,22 @@ class PlanController extends Controller {
     //
 
     public function getPlans() {
-        return PlanResource::collection(Plan::paginate(15));
+        return PlanResource::collection(Plan::with('dates')->paginate(4));
     }
 
     public function getPlansByHints(int $age, string $sex, float $bmi) {
         return "";
     }
 
+    public function getPlan(Plan $plan) {
+        return new PlanResource($plan->load('dates'));
+    }
+
     public function addPlan(PlanRequest $planRequest) {
         $planEditor = PlanEditor::open();
         $planEditor->saveWithData($planRequest->all());
-        
-        return SimpleResponse::success(['message' => 'PLAN.CREATED.SUCCESS']);
+
+        return SimpleResponse::success(['message' => 'PLAN.ADDED.SUCCESS']);
     }
 
     public function updatePlan(PlanRequest $planRequest, Plan $plan) {
@@ -32,5 +36,11 @@ class PlanController extends Controller {
         $planEditor->saveWithData($planRequest->all());
 
         return SimpleResponse::success(['message' => 'PLAN.UPDATED.SUCCESS']);
+    }
+
+    public function deletePlan(Plan $plan) {
+        $plan->delete();
+
+        return SimpleResponse::success(['message' => 'PLAN.DELETED.SUCCESS']);
     }
 }
