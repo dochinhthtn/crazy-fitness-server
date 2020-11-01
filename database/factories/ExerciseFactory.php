@@ -28,7 +28,8 @@ class ExerciseFactory extends Factory
             'count_type' => $countTypes[$this->faker->numberBetween(0,1)],
             'duration' => $this->faker->numberBetween(10, 20) / 10,
             'tutorial' => $this->faker->sentence,
-            'calories' => $this->faker->numberBetween(1, 5)
+            'calories' => $this->faker->numberBetween(1, 5),
+            'difficulty' => $this->faker->numberBetween(1,10)
         ];
     }
 }
