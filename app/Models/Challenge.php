@@ -12,6 +12,6 @@ class Challenge extends Model
     protected $fillable = ['name'];
 
     public function workouts() {
-        return $this->belongsToMany(Workout::class, 'challenges_workouts', 'challenge_id', 'workout_id');
+        return $this->belongsToMany(Workout::class, 'challenges_workouts', 'challenge_id', 'workout_id')->withPivot('order');
     }
 }
