@@ -14,15 +14,14 @@ class WorkoutEditor extends Editor {
         $workoutModel->description = $info['description'];
         $workoutModel->save();
 
-        $attachments = array_map(function($item) {
-            return [
-                $item['exercise_id'] => [
-                    'order' => $item['order'],
-                    'counter' => $item['counter']
-                ]
+        $attachments = [];
+        foreach($exercises as $exercise){
+            $attachments[$exercise['id']] = [
+                'order' => $exercise['order'],
+                'counter' => $exercise['counter']
             ];
-        }, $exercises);
-
+        }
+        // dump($attachments);
         $workoutModel->exercises()->syncWithoutDetaching($attachments);
     }
 }
