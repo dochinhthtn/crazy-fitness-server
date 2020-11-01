@@ -20,6 +20,7 @@ class CreateExercisesTable extends Migration
             $table->float('duration')->nullable();
             $table->longText('tutorial')->nullable();
             $table->float('calories')->default(0);
+            $table->integer('difficulty')->default(6);
             $table->timestamps();
         });
     }
