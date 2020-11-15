@@ -23,7 +23,7 @@ class WorkoutFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->md5,
+            'name' => 'Workout ' . $this->faker->unique()->name,
             'description' => $this->faker->sentence
         ];
     }

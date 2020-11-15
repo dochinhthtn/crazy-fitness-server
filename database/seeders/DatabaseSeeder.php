@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
             WorkoutSeeder::class,
             MealSeeder::class,
             PlanSeeder::class,
-            ChallengeSeeder::class
+            // ChallengeSeeder::class
         ]);
     }
 }

@@ -1,0 +1,187 @@
+[
+    {
+        "name": "Rest",
+        "count_type": "countdown",
+        "duration": 1,
+        "tutorial": "",
+        "calories": 0,
+        "difficulty": 1
+    },
+    {
+        "name": "Plank with left leg lift",
+        "count_type": "countdown",
+        "duration": 1,
+        "tutorial": "",
+        "calories": 0.2,
+        "difficulty": 1
+    },
+    {
+        "name": "Plank with left leg lift",
+        "count_type": "countdown",
+        "duration": 1,
+        "tutorial": "",
+        "calories": 0.2,
+        "difficulty": 1
+    },
+
+    {
+        "name": "Mountain climber",
+        "count_type": "repetition",
+        "duration": 1,
+        "tutorial": "",
+        "calories": 0.3,
+        "difficulty": 3
+    },
+    {
+        "name": "Commando plank",
+        "count_type": "countdown",
+        "duration": 1,
+        "tutorial": "",
+        "calories": 0.3,
+        "difficulty": 3
+    },
+    {
+        "name": "Split jumps",
+        "count_type": "countdown",
+        "duration": 1,
+        "tutorial": "",
+        "calories": 0.25,
+        "difficulty": 2
+    },
+    {
+        "name": "Bird dog",
+        "count_type": "repetition",
+        "duration": 1.2,
+        "tutorial": "",
+        "calories": 0.2,
+        "difficulty": 1
+    },
+    {
+        "name": "Superman",
+        "count_type": "repetition",
+        "duration": 1.5,
+        "tutorial": "",
+        "calories": 0.2,
+        "difficulty": 1
+    },
+    {
+        "name": "Push up",
+        "count_type": "repetition",
+        "duration": 2,
+        "tutorial": "",
+        "calories": 0.3,
+        "difficulty": 3
+    },
+    {
+        "name": "Jumping jacks",
+        "count_type": "countdown",
+        "duration": 1,
+        "tutorial": "",
+        "calories": 0.4,
+        "difficulty": 4
+    },
+    {
+        "name": "Cycling abs",
+        "count_type": "countdown",
+        "duration": 1,
+        "tutorial": "",
+        "calories": 0.2,
+        "difficulty": 1
+    },
+    {
+        "name": "Abdominals crunch",
+        "count_type": "repetition",
+        "duration": 1.8,
+        "tutorial": "",
+        "calories": 0.3,
+        "difficulty": 3
+    },
+    {
+        "name": "Dead bug",
+        "count_type": "repetition",
+        "duration": 1,
+        "tutorial": "",
+        "calories": 0.2,
+        "difficulty": 1
+    },
+    {
+        "name": "Forward lunges",
+        "count_type": "repetition",
+        "duration": 1.8,
+        "tutorial": "",
+        "calories": 0.2,
+        "difficulty": 1
+    },
+    {
+        "name": "Bridge",
+        "count_type": "repetition",
+        "duration": 1.2,
+        "tutorial": "",
+        "calories": 0.2,
+        "difficulty": 1
+    },
+    {
+        "name": "Double leg stretch",
+        "count_type": "repetition",
+        "duration": 1,
+        "tutorial": "",
+        "calories": 0.2,
+        "difficulty": 1
+    },
+    {
+        "name": "Bicycle crunch",
+        "count_type": "repetition",
+        "duration": 1,
+        "tutorial": "",
+        "calories": 0.3,
+        "difficulty": 3
+    },
+    {
+        "name": "Scissors side crunch",
+        "count_type": "repetition",
+        "duration": 1.2,
+        "tutorial": "",
+        "calories": 0.2,
+        "difficulty": 1
+    },
+    {
+        "name": "Jump burpees",
+        "count_type": "repetition",
+        "duration": 2.5,
+        "tutorial": "",
+        "calories": 0.4,
+        "difficulty": 8
+    },
+    {
+        "name": "Tricep bench dips",
+        "count_type": "repetition",
+        "duration": 2.5,
+        "tutorial": "",
+        "calories": 0.2,
+        "difficulty": 1
+    },
+    {
+        "name": "Pull up",
+        "count_type": "repetition",
+        "duration": 3,
+        "tutorial": "",
+        "calories": 0.5,
+        "difficulty": 5
+    },
+    {
+        "name": "Flutter kicks",
+        "count_type": "repetition",
+        "duration": 2,
+        "tutorial": "",
+        "calories": 0.4,
+        "difficulty": 5
+    },
+    {
+        "name": "Supine bicycles",
+        "count_type": "repetition",
+        "duration": 3,
+        "tutorial": "",
+        "calories": 0.7,
+        "difficulty": 8
+    }
+]

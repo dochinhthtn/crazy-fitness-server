@@ -22,7 +22,7 @@ class ExerciseFactory extends Factory
      */
     public function definition()
     {
-        $countTypes = ['repetition', 'timer'];
+        $countTypes = ['repetition', 'countdown'];
         return [
             'name' => $this->faker->md5,
             'count_type' => $countTypes[$this->faker->numberBetween(0,1)],

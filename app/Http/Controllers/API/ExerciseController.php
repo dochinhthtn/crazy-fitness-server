@@ -32,4 +32,8 @@ class ExerciseController extends Controller {
     public function deleteExercise(Exercise $exercise) {
         $exercise->delete();
     }
+
+    public function searchExercises(string $keyword) {
+        
+    }
 }

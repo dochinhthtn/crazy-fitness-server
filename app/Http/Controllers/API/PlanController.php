@@ -13,7 +13,8 @@ class PlanController extends Controller {
     //
 
     public function getPlans() {
-        return PlanResource::collection(Plan::with('dates')->paginate(4));
+        return PlanResource::collection(Plan::with('dates')->paginate(8));
+        // return PlanResource::collection(Plan::paginate(8));
     }
 
     public function getPlansByHints(int $age, string $sex, float $bmi) {
@@ -22,6 +23,10 @@ class PlanController extends Controller {
 
     public function getPlan(Plan $plan) {
         return new PlanResource($plan->load('dates'));
+    }
+
+    public function searchPlans(string $keyword) {
+        return PlanResource::collection(Plan::whereRaw("name LIKE '%$keyword%'")->with('dates')->paginate(8));
     }
 
     public function addPlan(PlanRequest $planRequest) {

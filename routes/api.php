@@ -46,6 +46,7 @@ Route::get('/test', function () {
 Route::group(['prefix' => 'plan'], function () {
     Route::get('/', [PlanController::class, 'getPlans']);
     Route::get('/hint/{age}/{sex}/{bmi}', [PlanController::class, 'getPlansByHint']);
+    Route::get('/search/{keyword}', [PlanController::class, 'searchPlans']);
     Route::get('/{plan:id}', [PlanController::class, 'getPlan']);
     Route::post('/', [PlanController::class, 'addPlan']);
     Route::put('/{plan:id}', [PlanController::class, 'updatePlan']);
@@ -61,6 +62,7 @@ Route::group(['prefix' => 'workout'], function () {
 Route::group(['prefix' => 'exercise'], function() {
     Route::get('/', [ExerciseController::class, 'getExercises']);
     Route::get('/{exercise:id}', [ExerciseController::class, 'getExercise']);
+    Route::get('/search/{keyword}', [ExerciseController::class, 'searchExercise']);
     Route::post('/', [ExerciseController::class, 'addExercise']);
     Route::put('/{exercise:id}', [ExerciseController::class, 'updateExercise']);
 });
