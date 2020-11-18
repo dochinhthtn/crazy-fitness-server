@@ -1,187 +1,749 @@
 [
     {
-        "name": "Rest",
-        "count_type": "countdown",
-        "duration": 1,
-        "tutorial": "",
-        "calories": 0,
-        "difficulty": 1
+      "name": "Plate Standing Twists",
+      "count_type": "countdown",
+      "muscle_involved": "Shoulder, Abs",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 10,
+      "calories": 0.6
     },
     {
-        "name": "Plank with left leg lift",
-        "count_type": "countdown",
-        "duration": 1,
-        "tutorial": "",
-        "calories": 0.2,
-        "difficulty": 1
+      "name": "Upright Row",
+      "count_type": "repetition",
+      "muscle_involved": "Shoulder",
+      "duration": 2.8,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.7
     },
     {
-        "name": "Plank with left leg lift",
-        "count_type": "countdown",
-        "duration": 1,
-        "tutorial": "",
-        "calories": 0.2,
-        "difficulty": 1
-    },
-
-    {
-        "name": "Mountain climber",
-        "count_type": "repetition",
-        "duration": 1,
-        "tutorial": "",
-        "calories": 0.3,
-        "difficulty": 3
+      "name": "Push-up Row",
+      "count_type": "repetition",
+      "muscle_involved": "Back, Chest",
+      "duration": 3.2,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 1
     },
     {
-        "name": "Commando plank",
-        "count_type": "countdown",
-        "duration": 1,
-        "tutorial": "",
-        "calories": 0.3,
-        "difficulty": 3
+      "name": "Dumbbell Lateral Raise",
+      "count_type": "repetition",
+      "muscle_involved": "Shoulder, Leg",
+      "duration": 2.8,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.3
     },
     {
-        "name": "Split jumps",
-        "count_type": "countdown",
-        "duration": 1,
-        "tutorial": "",
-        "calories": 0.25,
-        "difficulty": 2
+      "name": "Step-up Lateral Raise",
+      "count_type": "repetition",
+      "muscle_involved": "Chest, Leg",
+      "duration": 2.3,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.5
     },
     {
-        "name": "Bird dog",
-        "count_type": "repetition",
-        "duration": 1.2,
-        "tutorial": "",
-        "calories": 0.2,
-        "difficulty": 1
+      "name": "Dumbbell Rows",
+      "count_type": "repetition",
+      "muscle_involved": "Back",
+      "duration": 2.1,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.6
     },
     {
-        "name": "Superman",
-        "count_type": "repetition",
-        "duration": 1.5,
-        "tutorial": "",
-        "calories": 0.2,
-        "difficulty": 1
+      "name": "Dumbbell Press",
+      "count_type": "repetition",
+      "muscle_involved": "Shoulder, Leg",
+      "duration": 2.5,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.7
     },
     {
-        "name": "Push up",
-        "count_type": "repetition",
-        "duration": 2,
-        "tutorial": "",
-        "calories": 0.3,
-        "difficulty": 3
+      "name": "Plate Lunge With Rotation",
+      "count_type": "repetition",
+      "muscle_involved": "Shoulder, Leg",
+      "duration": 2.2,
+      "tutorial": null,
+      "difficulty": 10,
+      "calories": 0.9
     },
     {
-        "name": "Jumping jacks",
-        "count_type": "countdown",
-        "duration": 1,
-        "tutorial": "",
-        "calories": 0.4,
-        "difficulty": 4
+      "name": "Supine Knees Side to Side",
+      "count_type": "countdown",
+      "muscle_involved": "Abs",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.6
     },
     {
-        "name": "Cycling abs",
-        "count_type": "countdown",
-        "duration": 1,
-        "tutorial": "",
-        "calories": 0.2,
-        "difficulty": 1
+      "name": "Standing Elbow to Knee Crunch",
+      "count_type": "countdown",
+      "muscle_involved": "Abs",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.8
     },
     {
-        "name": "Abdominals crunch",
-        "count_type": "repetition",
-        "duration": 1.8,
-        "tutorial": "",
-        "calories": 0.3,
-        "difficulty": 3
+      "name": "Air Squats",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 2.4,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.4
     },
     {
-        "name": "Dead bug",
-        "count_type": "repetition",
-        "duration": 1,
-        "tutorial": "",
-        "calories": 0.2,
-        "difficulty": 1
+      "name": "Swiss-ball Arm Rotation",
+      "count_type": "countdown",
+      "muscle_involved": "Shoulder, Arm",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.8
     },
     {
-        "name": "Forward lunges",
-        "count_type": "repetition",
-        "duration": 1.8,
-        "tutorial": "",
-        "calories": 0.2,
-        "difficulty": 1
+      "name": "Seated Abdominal Crunch",
+      "count_type": "repetition",
+      "muscle_involved": "Abs",
+      "duration": 3,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.5
     },
     {
-        "name": "Bridge",
-        "count_type": "repetition",
-        "duration": 1.2,
-        "tutorial": "",
-        "calories": 0.2,
-        "difficulty": 1
+      "name": "Sumo Deadlift",
+      "count_type": "repetition",
+      "muscle_involved": "Leg, Arm",
+      "duration": 2.8,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.9
     },
     {
-        "name": "Double leg stretch",
-        "count_type": "repetition",
-        "duration": 1,
-        "tutorial": "",
-        "calories": 0.2,
-        "difficulty": 1
+      "name": "Reverse Fly",
+      "count_type": "repetition",
+      "muscle_involved": "Shoulder, Back",
+      "duration": 2.6,
+      "tutorial": null,
+      "difficulty": 10,
+      "calories": 0.3
     },
     {
-        "name": "Bicycle crunch",
-        "count_type": "repetition",
-        "duration": 1,
-        "tutorial": "",
-        "calories": 0.3,
-        "difficulty": 3
+      "name": "Dumbbell Press Lunge",
+      "count_type": "repetition",
+      "muscle_involved": "Leg, Shoulder",
+      "duration": 2.9,
+      "tutorial": null,
+      "difficulty": 10,
+      "calories": 0.3
     },
     {
-        "name": "Scissors side crunch",
-        "count_type": "repetition",
-        "duration": 1.2,
-        "tutorial": "",
-        "calories": 0.2,
-        "difficulty": 1
+      "name": "Double-arm Cable Rotation",
+      "count_type": "repetition",
+      "muscle_involved": "Arm, Shoulder",
+      "duration": 2.7,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.4
     },
     {
-        "name": "Jump burpees",
-        "count_type": "repetition",
-        "duration": 2.5,
-        "tutorial": "",
-        "calories": 0.4,
-        "difficulty": 8
+      "name": "Jump Back Pushups",
+      "count_type": "repetition",
+      "muscle_involved": "Arm, Abs",
+      "duration": 3,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.8
     },
     {
-        "name": "Tricep bench dips",
-        "count_type": "repetition",
-        "duration": 2.5,
-        "tutorial": "",
-        "calories": 0.2,
-        "difficulty": 1
+      "name": "Squat Jack",
+      "count_type": "countdown",
+      "muscle_involved": "Full body",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.7
     },
     {
-        "name": "Pull up",
-        "count_type": "repetition",
-        "duration": 3,
-        "tutorial": "",
-        "calories": 0.5,
-        "difficulty": 5
+      "name": "Rest",
+      "count_type": "countdown",
+      "muscle_involved": "",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 0,
+      "calories": 0
     },
     {
-        "name": "Flutter kicks",
-        "count_type": "repetition",
-        "duration": 2,
-        "tutorial": "",
-        "calories": 0.4,
-        "difficulty": 5
+      "name": "Superman",
+      "count_type": "repetition",
+      "muscle_involved": "Back",
+      "duration": 3,
+      "tutorial": null,
+      "difficulty": 10,
+      "calories": 0.9
     },
     {
-        "name": "Supine bicycles",
-        "count_type": "repetition",
-        "duration": 3,
-        "tutorial": "",
-        "calories": 0.7,
-        "difficulty": 8
+      "name": "Legs raise",
+      "count_type": "repetition",
+      "muscle_involved": "Abs",
+      "duration": 3,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.9
+    },
+    {
+      "name": "Running in place",
+      "count_type": "countdown",
+      "muscle_involved": "Full body",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.3
+    },
+    {
+      "name": "Plank raise tap crunch",
+      "count_type": "repetition",
+      "muscle_involved": "Abs, Back",
+      "duration": 2.5,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.9
+    },
+    {
+      "name": "Goblet squats",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 2.5,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.7
+    },
+    {
+      "name": "High knee Running in place",
+      "count_type": "countdown",
+      "muscle_involved": "Abs, Leg",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.6
+    },
+    {
+      "name": "Dumbbell walk",
+      "count_type": "repetition",
+      "muscle_involved": "Full body",
+      "duration": 2.8,
+      "tutorial": null,
+      "difficulty": 10,
+      "calories": 0.3
+    },
+    {
+      "name": "Standing crunch",
+      "count_type": "repetition",
+      "muscle_involved": "Abs",
+      "duration": 3,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.6
+    },
+    {
+      "name": "Standing Dumbbell Crunch",
+      "count_type": "repetition",
+      "muscle_involved": "Back",
+      "duration": 3,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.6
+    },
+    {
+      "name": "Warrior III",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 2,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 1
+    },
+    {
+      "name": "Incline Abdominal Crunch",
+      "count_type": "repetition",
+      "muscle_involved": "Abs",
+      "duration": 2.7,
+      "tutorial": null,
+      "difficulty": 10,
+      "calories": 0.2
+    },
+    {
+      "name": "Rotation Ankle Touch",
+      "count_type": "repetition",
+      "muscle_involved": "Abs",
+      "duration": 3.2,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.9
+    },
+    {
+      "name": "Seated low cable row",
+      "count_type": "repetition",
+      "muscle_involved": "Back",
+      "duration": 2.9,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.2
+    },
+    {
+      "name": "Push up",
+      "count_type": "repetition",
+      "muscle_involved": "Chest",
+      "duration": 2.4,
+      "tutorial": null,
+      "difficulty": 10,
+      "calories": 0.7
+    },
+    {
+      "name": "Dumbbell row",
+      "count_type": "repetition",
+      "muscle_involved": "Back",
+      "duration": 2,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.7
+    },
+    {
+      "name": "Bench Lunge",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 3.2,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.7
+    },
+    {
+      "name": "Bodyweight row",
+      "count_type": "repetition",
+      "muscle_involved": "Chest, Arm",
+      "duration": 2.7,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.6
+    },
+    {
+      "name": "Pull up",
+      "count_type": "repetition",
+      "muscle_involved": "Back, Arm",
+      "duration": 2.6,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.5
+    },
+    {
+      "name": "Jump Jack",
+      "count_type": "countdown",
+      "muscle_involved": "Full body",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.4
+    },
+    {
+      "name": "Switch Jump",
+      "count_type": "countdown",
+      "muscle_involved": "Full body",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 10,
+      "calories": 0.8
+    },
+    {
+      "name": "Bodyweight Bench Squat",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 2.3,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.6
+    },
+    {
+      "name": "Step-up",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 2.5,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.3
+    },
+    {
+      "name": "Side to side ankle touch",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 2.4,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.9
+    },
+    {
+      "name": "Lunge Front Kicks",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 2.7,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.9
+    },
+    {
+      "name": "Lunge",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 2.9,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.4
+    },
+    {
+      "name": "Dumbbell Shoulder Press",
+      "count_type": "repetition",
+      "muscle_involved": "Chest",
+      "duration": 2.8,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.4
+    },
+    {
+      "name": "Cable Press",
+      "count_type": "repetition",
+      "muscle_involved": "Arm, Chest",
+      "duration": 2.6,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.8
+    },
+    {
+      "name": "Kettlebell swing",
+      "count_type": "repetition",
+      "muscle_involved": "Shoulder",
+      "duration": 2,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.9
+    },
+    {
+      "name": "Double crunch",
+      "count_type": "repetition",
+      "muscle_involved": "Abs",
+      "duration": 3.1,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.5
+    },
+    {
+      "name": "Lateral Bench Hops",
+      "count_type": "countdown",
+      "muscle_involved": "Leg, Abs",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.9
+    },
+    {
+      "name": "Stability Ball Abdominal Crunches",
+      "count_type": "repetition",
+      "muscle_involved": "Abs",
+      "duration": 2.8,
+      "tutorial": null,
+      "difficulty": 10,
+      "calories": 0.4
+    },
+    {
+      "name": "Curtsy squat",
+      "count_type": "repetition",
+      "muscle_involved": "Shoulder",
+      "duration": 2.7,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.9
+    },
+    {
+      "name": "Alternating Rope Whips",
+      "count_type": "countdown",
+      "muscle_involved": "Leg",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.7
+    },
+    {
+      "name": "Alternating Front Dumbbell Raise",
+      "count_type": "repetition",
+      "muscle_involved": "Arm, Chest",
+      "duration": 2.9,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.3
+    },
+    {
+      "name": "Dip",
+      "count_type": "repetition",
+      "muscle_involved": "Shoulder, Back",
+      "duration": 2.1,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.2
+    },
+    {
+      "name": "Glute Kick Back",
+      "count_type": "repetition",
+      "muscle_involved": "Arm",
+      "duration": 2.9,
+      "tutorial": null,
+      "difficulty": 10,
+      "calories": 0.8
+    },
+    {
+      "name": "Swiss-ball Elbow to Knee",
+      "count_type": "repetition",
+      "muscle_involved": "Abs",
+      "duration": 2.8,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.3
+    },
+    {
+      "name": "Arnol Press",
+      "count_type": "repetition",
+      "muscle_involved": "Shoulder",
+      "duration": 2.2,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.4
+    },
+    {
+      "name": "One Arm Dumbbell Rows",
+      "count_type": "repetition",
+      "muscle_involved": "Back",
+      "duration": 3.1,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.5
+    },
+    {
+      "name": "One-arm Bridge Push-up",
+      "count_type": "repetition",
+      "muscle_involved": "Shoulder",
+      "duration": 2.2,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.7
+    },
+    {
+      "name": "Lateral Side Jump",
+      "count_type": "countdown",
+      "muscle_involved": "Full body",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.5
+    },
+    {
+      "name": "Side Leg Raise",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 2.1,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.5
+    },
+    {
+      "name": "Spiderman Push Up",
+      "count_type": "repetition",
+      "muscle_involved": "Chest, Leg",
+      "duration": 2.3,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.7
+    },
+    {
+      "name": "Stability ball wall squat",
+      "count_type": "repetition",
+      "muscle_involved": "Leg, Back",
+      "duration": 3,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.7
+    },
+    {
+      "name": "Dive Bomber Push-Up",
+      "count_type": "repetition",
+      "muscle_involved": "Back, Shoulder",
+      "duration": 3.1,
+      "tutorial": null,
+      "difficulty": 10,
+      "calories": 0.3
+    },
+    {
+      "name": "Jack -Knife",
+      "count_type": "repetition",
+      "muscle_involved": "Abs",
+      "duration": 2.3,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.9
+    },
+    {
+      "name": "Side Bridge",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 2.9,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.7
+    },
+    {
+      "name": "Push-up and Rotation",
+      "count_type": "repetition",
+      "muscle_involved": "Chest, Shoulder",
+      "duration": 2.5,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.6
+    },
+    {
+      "name": "One-leg Bridge Push-up",
+      "count_type": "repetition",
+      "muscle_involved": "Leg, Back",
+      "duration": 2.8,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.9
+    },
+    {
+      "name": "Cable Triceps",
+      "count_type": "repetition",
+      "muscle_involved": "Arm",
+      "duration": 2.8,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.5
+    },
+    {
+      "name": "Incline push up",
+      "count_type": "repetition",
+      "muscle_involved": "Chest, Arm",
+      "duration": 2.9,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 1
+    },
+    {
+      "name": "Include kick scissor",
+      "count_type": "repetition",
+      "muscle_involved": "Leg, Abs, Shoulders",
+      "duration": 2.3,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 1
+    },
+    {
+      "name": "Lateral Squat",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 2.5,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.6
+    },
+    {
+      "name": "Lunge squat",
+      "count_type": "repetition",
+      "muscle_involved": "Leg",
+      "duration": 2.5,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.6
+    },
+    {
+      "name": "Ball-Squats",
+      "count_type": "repetition",
+      "muscle_involved": "Leg, Back, Arm",
+      "duration": 2.9,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.9
+    },
+    {
+      "name": "V-pass",
+      "count_type": "repetition",
+      "muscle_involved": "Abs",
+      "duration": 3,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.5
+    },
+    {
+      "name": "Dumbbell Lateral Squats",
+      "count_type": "repetition",
+      "muscle_involved": "Leg, Shoulder",
+      "duration": 2.5,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 1
+    },
+    {
+      "name": "Kneeling Extension",
+      "count_type": "repetition",
+      "muscle_involved": "Back",
+      "duration": 2.1,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 1
+    },
+    {
+      "name": "Hip Lift",
+      "count_type": "repetition",
+      "muscle_involved": "Abs",
+      "duration": 2.7,
+      "tutorial": null,
+      "difficulty": 9,
+      "calories": 0.3
+    },
+    {
+      "name": "Reverse burpee",
+      "count_type": "repetition",
+      "muscle_involved": "Abs, Leg",
+      "duration": 2.3,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.3
+    },
+    {
+      "name": "Kick scissor",
+      "count_type": "countdown",
+      "muscle_involved": "Leg",
+      "duration": 1,
+      "tutorial": null,
+      "difficulty": 8,
+      "calories": 0.8
+    },
+    {
+      "name": "Bird-dog Single Leg Lift",
+      "count_type": "repetition",
+      "muscle_involved": "Back",
+      "duration": 3.1,
+      "tutorial": null,
+      "difficulty": 6,
+      "calories": 0.5
+    },
+    {
+      "name": "Elbow to Knee",
+      "count_type": "repetition",
+      "muscle_involved": "Abs",
+      "duration": 2.8,
+      "tutorial": null,
+      "difficulty": 7,
+      "calories": 0.8
     }
-]
+  ]

@@ -21,7 +21,7 @@ class CreateExercisesTable extends Migration
             $table->longText('tutorial')->nullable();
             $table->float('calories')->default(0);
             $table->integer('difficulty')->default(6);
-            $table->integer('muscle_involved')->nullable();
+            $table->string('muscle_involved', 191)->nullable();
             $table->timestamps();
         });
     }

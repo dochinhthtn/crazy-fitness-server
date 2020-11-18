@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Chest workout",
+        "description": null
+    },
+    {
+        "name": "Abs workout",
+        "description": null
+    },
+    {
+        "name": "Legs workout",
+        "description": null
+    },
+    {
+        "name": "Back workout",
+        "description": null
+    },
+    {
+        "name": "Shoulders workout",
+        "description": null
+    },
+    {
+        "name": "Arms workout",
+        "description": null
+    },
+    {
+        "name": "Leg & Abs workout",
+        "description": null
+    },
+    {
+        "name": "Chest & Back",
+        "description": null
+    },
+    {
+        "name": "Shoulders & Arms",
+        "description": null
+    },
+    {
+        "name": "Chest, Shoulders & Triceps",
+        "description": null
+    }
+]
